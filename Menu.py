@@ -1,5 +1,4 @@
 import Funções
-
 def Menu():
 
     nome = input("Digite o nome do arquivo que deseja trabalhar:\n Temos predefinos os arquivos:\n 'teste.txt'"
@@ -12,7 +11,6 @@ def Menu():
     arquivo = open(nome,"r")
     lista = Funções.lista(arquivo)
     matriz = Funções.matriz(arquivo)
-
     caminho = Funções.Vizinho_Mais_Proximo(lista)
 
     print("Caminho:")
